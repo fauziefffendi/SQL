@@ -24,16 +24,17 @@ insert into customers values
 create table employees (
 employee_id int not null primary key,
 name varchar(30) not null,
-salary int null
+salary int not null,
+department varchar(30) not null
 );
 
 -- insert values to employees table
 insert into employees values
-(1,'Aditi Shenoy',50000),
-(2,'Vineeta Sarkar',60000),
-(3,'Shami Bhandari',40000),
-(4,'Gauri Chana',60000),
-(5,'Ananya Ray',55000);
+(1,'Aditi Shenoy',50000,'marketing'),
+(2,'Vineeta Sarkar',60000,'finance'),
+(3,'Shami Bhandari',40000,'HR'),
+(4,'Gauri Chana',60000,'marketing'),
+(5,'Ananya Ray',55000,'HR');
 
 -- create product table
 create table product (
