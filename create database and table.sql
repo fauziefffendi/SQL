@@ -65,6 +65,7 @@ insert into orders values
 (2,1,'2023-05-05','complete'),
 (3,2,'2023-05-10','pending'),
 (4,3,'2023-05-15','complete'),
+(6,3,'2023-05-16','canceled'),
 (5,2,'2023-05-20','complete');
 
 -- create order_item table 
